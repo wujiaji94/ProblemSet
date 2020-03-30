@@ -1,12 +1,18 @@
 ![](https://raw.githubusercontent.com/Ma63d/leetcode-spider/master/img/site-logo.png)
 
-`Solved/Total(Locked)`
-`?/1096(67)`
+`Solved/Total`
+`6/1586`
 
 ## solutions
 
-> https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/
-`src/main/java/LeetCode/FindContinuousSequence.java`
-
-> https://leetcode-cn.com/problems/sorted-merge-lcci/     
-`src/main/java/LeetCode/Merge.java`
+>1. https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/ `src/main/java/LeetCode/FindContinuousSequence.java`
+>
+>2. https://leetcode-cn.com/problems/sorted-merge-lcci/ `src/main/java/LeetCode/Merge.java`
+>
+>3. https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/ `src/main/java/LeetCode/DFS/MaxDepth.java`
+>
+>4. https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/ `src/main/java/LeetCode/DFS/IsBalanced.java`
+>
+>5. https://leetcode-cn.com/problems/minimum-height-tree-lcci/ `src/main/java/LeetCode/DFS/SortedArrayToBST.java`
+>
+>6. https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/ `src/main/java/LeetCode/BinarySearch/MissingNumber.java`
