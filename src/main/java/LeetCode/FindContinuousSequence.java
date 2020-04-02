@@ -10,6 +10,7 @@ import java.util.List;
  * @Author: wujiaji
  * @Date: 2020-03-21
  * @Description: 面试题57 - II. 和为s的连续正数序列
+ * @URL: //https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/
  **/
 public class FindContinuousSequence {
     private static final Logger log = LoggerFactory.getLogger(FindContinuousSequence.class);

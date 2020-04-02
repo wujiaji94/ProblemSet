@@ -1,9 +1,10 @@
-package LeetCode.DFS;
+package LeetCode.Traverse;
 
 /**
  * @Author: wujiaji
  * @Date: 2020-03-30 19:53
  * @Description: 面试题55 - II. 平衡二叉树
+ * @URL: //https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/
  **/
 public class IsBalanced {
     public static void main(String[] args) {

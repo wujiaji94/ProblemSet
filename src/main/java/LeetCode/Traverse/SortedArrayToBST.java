@@ -1,4 +1,4 @@
-package LeetCode.DFS;
+package LeetCode.Traverse;
 
 import java.util.Arrays;
 
@@ -6,6 +6,7 @@ import java.util.Arrays;
  * @Author: wujiaji
  * @Date: 2020-03-30 20:06
  * @Description: 面试题 04.02. 最小高度树
+ * @URL: //https://leetcode-cn.com/problems/minimum-height-tree-lcci/
  **/
 public class SortedArrayToBST {
     public static void main(String[] args) {

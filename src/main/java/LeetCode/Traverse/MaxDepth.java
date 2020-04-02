@@ -1,9 +1,10 @@
-package LeetCode.DFS;
+package LeetCode.Traverse;
 
 /**
  * @Author: wujiaji
  * @Date: 2020-03-30 19:44
  * @Description: 面试题55 - I. 二叉树的深度
+ * @URL: //https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/
  **/
 public class MaxDepth {
     public static void main(String[] args) {
