@@ -1,4 +1,4 @@
-package LeetCode.Array;
+package LeetCode.DoublePointer;
 
 /**
  * @Author: wujiaji
@@ -11,34 +11,23 @@ public class RemoveDuplicates {
         RemoveDuplicates obj = new RemoveDuplicates();
         int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
         System.out.println(obj.removeDuplicates(nums));
-        for (int n: nums) {
+        for (int n : nums) {
             System.out.print(n + " ");
         }
     }
 
     public int removeDuplicates(int[] nums) {
-        if (nums.length == 0 || nums.length == 1) {
+        if (nums.length == 0) {
             return nums.length;
         }
-
         int left = 0;
-        int right = 0;
-        int count = 0;
-        while (left != nums.length - 1) {
-            while (nums[left] == nums[right]) {
-                if (right == nums.length - 1) {
-                    break;
-                } else {
-                    right++;
-                }
+        for (int right = 1; right < nums.length; right++) {
+            if (nums[left] != nums[right]) {
+                left++;
+                nums[left] = nums[right];
             }
-            nums[count++] = nums[left];
-            if (right == nums.length - 1 && nums[left] != nums[right]) {
-                nums[count++] = nums[right];
-            }
-            left = right;
         }
-
-        return count;
+        return left + 1;
     }
 }
+
