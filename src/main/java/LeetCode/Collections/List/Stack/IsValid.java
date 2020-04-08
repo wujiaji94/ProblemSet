@@ -1,4 +1,4 @@
-package LeetCode.Stack;
+package LeetCode.Collections.List.Stack;
 
 import java.util.Stack;
 

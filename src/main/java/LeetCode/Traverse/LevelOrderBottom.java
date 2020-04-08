@@ -1,5 +1,7 @@
 package LeetCode.Traverse;
 
+import LeetCode.Node.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
